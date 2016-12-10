@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+/*if(window.matchMedia("(min-width: 1366px)").matches)
+{
+	var width = 1280;
+	var height = 711;
+}*/
 
 	var width = 720;
 	var height = 400;

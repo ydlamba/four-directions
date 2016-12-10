@@ -8,7 +8,7 @@ header{
 	font-variant: small-caps;
 	width: 100%;
 	font-family: 'Open Sans Condensed', sans-serif;
-	padding:20px;
+	pahttps://github.com/ydlamba/four_directionsdding:20px;
 	letter-spacing: 2px;
 }
 main{
@@ -122,7 +122,7 @@ nav ul{
 nav img{
 	filter: brightness(60%);
 	width: 80%;
-	height: 80px;
+	height: 5.85vw;
 }
 nav li{
 	padding: 20px;
@@ -131,4 +131,25 @@ nav li{
 	box-shadow: 0 3px 8px #fff, 0 3px 6px #fff;
 	border: #fff 2px solid;
 	filter: brightness(100%);
+}
+@media screen and (min-width: 1366px) {
+	.close_set{
+		right: 40%;
+	}
+	.settings li{
+		padding:20px;
+	}
+	#setD{
+		margin-top:20px;
+	}
+	nav img{
+		height: 150px;
+	}
+	.settings button{
+		padding:20px;
+	}
+	/*.slider,.slides,.slides img{
+		width: 1280px;
+		height: 711px;
+	}*/
 }
